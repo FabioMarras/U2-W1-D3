@@ -1,0 +1,40 @@
+article {
+  background-color: yellow;
+  margin-inline: 50px;
+  border-radius: 20px;
+}
+.FA {
+  display: flex;
+  padding: 15px;
+}
+
+.FAimg {
+  height: 100%;
+  width: 350px;
+  display: inline-block;
+}
+
+h1 p {
+  display: inline;
+}
+
+.divDescription {
+  padding-left: 20px;
+}
+
+@media screen and (max-width: 600px) {
+  h1 p {
+    order: 1;
+  }
+  .FA {
+    flex-direction: column;
+    align-items: center;
+  }
+  .FAimg {
+    order: 3;
+    width: 90%;
+  }
+  .divDescription {
+    align-self: flex-end;
+  }
+}

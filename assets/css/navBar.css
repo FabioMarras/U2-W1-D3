@@ -1,0 +1,23 @@
+.container {
+  background-color: rgb(235, 235, 214);
+  display: flex;
+  justify-content: space-evenly;
+  margin: 30px;
+  padding-block: 20px;
+  border-radius: 200px;
+  align-items: center;
+}
+
+.container div {
+  background-color: rgb(228, 235, 23);
+  padding: 15px;
+  border-radius: 100px;
+  width: 10%;
+}
+
+.shop {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 25px;
+}
