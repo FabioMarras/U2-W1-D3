@@ -31,11 +31,14 @@
   display: inline-block;
   background-color: #caca9d;
   border-radius: 40px;
+  margin: 10px;
 }
 
 .imageCard {
   width: 250px;
   height: 100%;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
 }
 
 .textCard {
@@ -54,6 +57,8 @@
   margin-bottom: 20px;
   border-radius: 20px;
   width: 120px;
+  border: none;
+  background: rgb(228, 235, 23);
 }
 article {
   background-color: yellow;
@@ -77,6 +82,11 @@ h1 p {
 
 .divDescription {
   padding-left: 20px;
+}
+.divAllCard {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 @media screen and (max-width: 768px) {

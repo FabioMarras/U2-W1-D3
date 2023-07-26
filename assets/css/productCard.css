@@ -11,6 +11,8 @@
 .imageCard {
   width: 250px;
   height: 100%;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
 }
 
 .textCard {
@@ -29,4 +31,6 @@
   margin-bottom: 20px;
   border-radius: 20px;
   width: 120px;
+  border: none;
+  background: rgb(228, 235, 23);
 }
